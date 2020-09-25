@@ -6,7 +6,7 @@ Cobra is used in many Go projects such as [Kubernetes](http://kubernetes.io/),
 [Hugo](https://gohugo.io), and [Github CLI](https://github.com/cli/cli) to
 name a few. [This list](./projects_using_cobra.md) contains a more extensive list of projects using Cobra.
 
-[![Build Status](https://travis-ci.org/spf13/cobra.svg "Travis CI status")](https://travis-ci.org/spf13/cobra)
+[![Build Status](https://travis-ci.org/zero-yy/cobra.svg "Travis CI status")](https://travis-ci.org/zero-yy/cobra)
 [![GoDoc](https://godoc.org/github.com/zero-yy/cobra?status.svg)](https://godoc.org/github.com/zero-yy/cobra)
 [![Go Report Card](https://goreportcard.com/badge/github.com/zero-yy/cobra)](https://goreportcard.com/report/github.com/zero-yy/cobra)
 [![Slack](https://img.shields.io/badge/Slack-cobra-brightgreen)](https://gophers.slack.com/archives/CD3LP1199)
@@ -54,7 +54,7 @@ Cobra provides:
 * Automatically generated man pages for your application
 * Command aliases so you can change things without breaking them
 * The flexibility to define your own help, usage, etc.
-* Optional tight integration with [viper](http://github.com/spf13/viper) for 12-factor apps
+* Optional tight integration with [viper](http://github.com/zero-yy/viper) for 12-factor apps
 
 # Concepts
 
@@ -196,7 +196,7 @@ import (
 
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/zero-yy/cobra"
-	"github.com/spf13/viper"
+	"github.com/zero-yy/viper"
 )
 
 var (
@@ -394,7 +394,7 @@ command := cobra.Command{
 
 ### Bind Flags with Config
 
-You can also bind your flags with [viper](https://github.com/spf13/viper):
+You can also bind your flags with [viper](https://github.com/zero-yy/viper):
 ```go
 var author string
 
@@ -408,7 +408,7 @@ In this example the persistent flag `author` is bound with `viper`.
 **Note**, that the variable `author` will not be set to the value from config,
 when the `--author` flag is not provided by user.
 
-More in [viper documentation](https://github.com/spf13/viper#working-with-flags).
+More in [viper documentation](https://github.com/zero-yy/viper#working-with-flags).
 
 ### Required flags
 

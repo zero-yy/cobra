@@ -19,7 +19,7 @@ import (
 	"path"
 
 	"github.com/zero-yy/cobra"
-	"github.com/spf13/viper"
+	"github.com/zero-yy/viper"
 )
 
 var (

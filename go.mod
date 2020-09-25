@@ -7,6 +7,6 @@ require (
 	github.com/inconshreveable/mousetrap v1.0.0
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/spf13/pflag v1.0.5
-	github.com/zero-yy/viper v1.7.1
+	github.com/zero-yy/viper v1.7.2-0.20200925030151-abcea26cf5b8
 	gopkg.in/yaml.v2 v2.3.0
 )
